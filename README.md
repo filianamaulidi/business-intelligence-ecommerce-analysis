@@ -14,12 +14,12 @@ Proyek ini tidak hanya menampilkan grafik, tetapi juga menyajikan interpretasi b
 
 ## Alur Kerja Analisis
 Proyek ini mengikuti alur kerja Business Intelligence yang sistematis:
-1. Data Integration & Cleaning (date formatting, handling missing values)
-2. Exploratory Data Analysis (EDA)
-3. Feature Engineering (Margin, DOI, Funnel Metrics)
-4. Visual Analysis
-5. Business Insight Extraction
-6. Strategic Recommendation
++ Data Integration & Cleaning (date formatting, handling missing values)
++ Exploratory Data Analysis (EDA)
++ Feature Engineering (Margin, DOI, Funnel Metrics)
++ Visual Analysis
++ Business Insight Extraction
++ Strategic Recommendation
 
 ## Pertanyaan Bisnis
 1. Produk mana yang memiliki penjualan tertinggi sepanjang tahun 2024-2025? Adakah lonjakan ekstrem pada produk tertentu?
@@ -31,7 +31,7 @@ Proyek ini mengikuti alur kerja Business Intelligence yang sistematis:
 ## Apa Keunggulan Projek Ini?
 1. Visualisasi dalam projek ini dihubungkan langsung dengan masalah bisnis nyata, seperti produk tidak optimal, inefisiensi funnel pembelian, risiko _overstock_ / _understock_. Sehingga, perusahaan dapat menentukan strategi bisnis yang tepat dan _data-driven_.
 2. Menghasilkan insight yang dapat ditindaklanjuti karena analisis menghasilkan rekomendasi konkret terkait strategi promosi, optimasi stok, prioritas pengelolaan produk.
-3. Proyek ini berfokus pada impact bisnis, bukan hanya eksplorasi data.
+3. Proyek ini berfokus pada _impact_ bisnis, bukan hanya eksplorasi data.
 
 ## Tech Stack
 + Python (Pandas, NumPy)
@@ -59,7 +59,7 @@ Pola ini mengindikasikan keberhasilan suatu aktivitas bisnis seperti promosi bes
   <img alt="Outlier Analysis by Product Name"
        src="https://github.com/user-attachments/assets/fc21ede2-429a-4c19-9a95-1f2fdf04857e" width = '600'/>
   <br>
-  <em>Figure 2. Melihat Outliers dengan Boxplot tiap Kategori Produk</em>
+  <em>Figure 2. Melihat Outliers dengan Boxplot tiap Produk</em>
 </p>
 Boxplot menunjukkan bahwa Earphone Kantor DQLab, Kertas Warna DQLab, dan Sticky Notes DQLab memiliki median penjualan lebih tinggi serta rentang interkuartil yang lebih lebar, menandakan performa yang lebih dinamis dibanding produk lain yang relatif stabil. Hampir semua produk juga memiliki outlier, yang menunjukkan adanya lonjakan penjualan di luar pola normal.
 
@@ -74,7 +74,7 @@ Boxplot menunjukkan bahwa Earphone Kantor DQLab, Kertas Warna DQLab, dan Sticky 
   <br>
   <em>Figure 3. Funnel Chart tiap Tahap Pembelian</em>
 </p>
-Dari total 76,5 juta views, sebanyak 79% berhasil menjadi clicks, namun terjadi penurunan tajam pada tahap add_to_cart yang hanya mencapai 15%. Lebih jauh lagi, hanya sekitar 1% dari total views yang akhirnya menjadi purchase. Hal ini mengindikasikan bottleneck kritis antara tahap click dan add_to_cart yang sangat memengaruhi tingkat konversi akhir.
+Dari total 76,5 juta views, sebanyak 79% berhasil menjadi clicks, namun terjadi penurunan tajam pada tahap add_to_cart yang hanya mencapai 15%. Lebih jauh lagi, hanya sekitar 1% dari total views yang akhirnya menjadi purchase. Hal ini mengindikasikan _bottleneck_ kritis antara tahap click dan add_to_cart yang sangat memengaruhi tingkat konversi akhir.
 
 **Implikasi bisnis:** Optimalisasi pengalaman pengguna pada tahap ini berpotensi memberikan dampak besar terhadap peningkatan penjualan.
 <br>

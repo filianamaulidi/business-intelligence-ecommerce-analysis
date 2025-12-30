@@ -96,3 +96,34 @@ Matriks SKU menunjukkan bahwa Sticky Notes DQLab dan Earphone Kantor DQLab merup
 <br>
 <br>
 
+## Kesimpulan
+**1. Produk dengan performa penjualan tertinggi**
+Penjualan didominasi oleh sedikit produk utama, dengan Sticky Notes DQLab mengalami lonjakan ekstrem pada September 2024. Setelah puncak, performanya tetap lebih tinggi dibanding periode awal, menunjukkan potensi sebagai key revenue driver.
+
+**2. Outlier & performa produk**
+Hampir semua kategori produk memiliki outlier, yang mengindikasikan adanya event penjualan tidak normal seperti promo besar atau pesanan massal. Produk dengan median tinggi dan outlier ekstrem cenderung memiliki kontribusi penjualan yang lebih dinamis.
+
+**3. Pola perilaku pelanggan (Funnel)**
+Dari seluruh view, hanya 1% yang berakhir menjadi purchase. Drop-off terbesar terjadi pada tahap click → add_to_cart, menjadikannya titik kritis utama untuk optimasi konversi.
+
+**4. Distribusi profit margin**
+Profit margin tidak terdistribusi normal dan membentuk beberapa klaster nilai, menandakan adanya kelompok produk dengan struktur profitabilitas yang sangat berbeda. Ini menunjukkan bahwa pendekatan harga dan stok tidak bisa disamaratakan.
+
+**5. Penentuan produk prioritas & kandidat drop**
+Matriks Margin–DOI menunjukkan bahwa produk dengan margin tinggi & DOI rendah merupakan kandidat utama untuk produk unggulan. Sebaliknya, produk dengan DOI tinggi & margin rendah berpotensi menjadi beban inventory dan layak untuk dievaluasi atau dikurangi.
+
+## Rekomendasi Bisnis
+**1. Leverage momentum produk dengan lonjakan penjualan**
+Produk seperti Sticky Notes DQLab yang menunjukkan spike penjualan ekstrem perlu diperlakukan sebagai growth driver, melalui strategi bundling, promo lanjutan, dan penempatan prioritas dalam campaign pemasaran agar performa pasca-puncak tetap terjaga.
+
+**2. Optimalkan tahap add-to-cart dalam funnel konversi**
+Penurunan tajam dari tahap click ke add-to-cart menunjukkan peluang besar untuk peningkatan revenue. Disarankan melakukan perbaikan UX halaman produk, pemberian promo kontekstual di keranjang, serta personalisasi rekomendasi produk.
+
+**3. Reformulasi strategi portofolio produk berbasis Margin–DOI Matrix**
+Fokuskan investasi stok dan promosi pada produk dengan kombinasi margin tinggi dan DOI relatif rendah, karena kelompok ini memberikan keseimbangan terbaik antara profitabilitas dan kecepatan perputaran inventori.
+
+**4. Evaluasi produk dengan DOI ekstrem**
+Produk dengan DOI sangat tinggi berpotensi mengikat modal terlalu lama. Untuk kategori ini diperlukan strategi diskon selektif, reposisi harga, atau penyesuaian volume produksi.
+
+**5. Segmentasi strategi harga & inventory, bukan berbasis rata-rata umum**
+Setiap kelompok produk memerlukan kebijakan yang berbeda. Pendekatan dapat dilakukan dengan melakukan segmentasi strategi harga berdasarkan cluster margin, bukan rata-rata umum, supaya tiap produk dapat strategi profitabilitas yang lebih tepat.

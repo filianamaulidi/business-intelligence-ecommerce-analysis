@@ -1,8 +1,16 @@
-# Business Intelligence E-Commerce Analysis
+# 📊 Business Intelligence E-Commerce Analysis
 Proyek ini merupakan analisis Business Intelligence berbasis data transaksi e-commerce yang bertujuan untuk mengubah data mentah menjadi insight bisnis yang dapat langsung digunakan untuk pengambilan keputusan.
 Fokus utama proyek ini adalah memahami pola penjualan, perilaku pelanggan, profitabilitas produk, serta efektivitas proses pembelian melalui pendekatan analisis data dan visualisasi.
 
 Proyek ini tidak hanya menampilkan grafik, tetapi juga menyajikan interpretasi bisnis dan rekomendasi strategis yang relevan bagi manajemen.
+
+## Key Metrics
++ Conversion rate: 1% purchase dari total views.
++ Spike products: Sticky Notes pada Sep 2024
++ Funnel bottleneck: 79% → 15% → 1%
++ Margin band peaks: ~10%, 20-25%, 50%
++ Priority products: diidentifikasi melalui matriks prioritas SKU
+
 
 ## Alur Kerja Analisis
 Proyek ini mengikuti alur kerja Business Intelligence yang sistematis:

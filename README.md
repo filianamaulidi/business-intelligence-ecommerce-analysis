@@ -39,7 +39,7 @@ Proyek ini mengikuti alur kerja Business Intelligence yang sistematis:
   <br>
   <em>Figure 1. Lonjakan Penjualan pada Top 3 Produk</em>
 </p>
-roduk Sticky Notes DQLab mengalami lonjakan penjualan sangat signifikan pada September 2024, menjadi puncak tertinggi sepanjang periode pengamatan. Sebelum periode tersebut, penjualannya relatif rendah, kemudian meningkat tajam dan setelahnya tetap berada di level yang lebih tinggi dibandingkan kondisi awal.
+Produk Sticky Notes DQLab mengalami lonjakan penjualan sangat signifikan pada September 2024, menjadi puncak tertinggi sepanjang periode pengamatan. Sebelum periode tersebut, penjualannya relatif rendah, kemudian meningkat tajam dan setelahnya tetap berada di level yang lebih tinggi dibandingkan kondisi awal.
 Pola ini mengindikasikan keberhasilan suatu aktivitas bisnis seperti promosi besar, kampanye khusus, atau kontrak pembelian dalam jumlah besar. Sebaliknya, empat produk lainnya menunjukkan tren yang lebih stabil tanpa lonjakan ekstrem.
 
 **Implikasi bisnis:** Pola ini menunjukkan bahwa strategi yang diterapkan pada Sticky Notes DQLab sangat efektif dan layak dievaluasi serta direplikasi untuk produk lain.
@@ -51,7 +51,7 @@ Pola ini mengindikasikan keberhasilan suatu aktivitas bisnis seperti promosi bes
   <img alt="Outlier Analysis by Product Name"
        src="https://github.com/user-attachments/assets/fc21ede2-429a-4c19-9a95-1f2fdf04857e" width = '600'/>
   <br>
-  <em>Figure 2.Melihat Outliers dengan Boxplot tiap Kategori Produk</em>
+  <em>Figure 2. Melihat Outliers dengan Boxplot tiap Kategori Produk</em>
 </p>
 Boxplot menunjukkan bahwa Earphone Kantor DQLab, Kertas Warna DQLab, dan Sticky Notes DQLab memiliki median penjualan lebih tinggi serta rentang interkuartil yang lebih lebar, menandakan performa yang lebih dinamis dibanding produk lain yang relatif stabil. Hampir semua produk juga memiliki outlier, yang menunjukkan adanya lonjakan penjualan di luar pola normal.
 
@@ -90,7 +90,7 @@ Distribusi profit margin menunjukkan variasi yang luas dengan konsentrasi utama 
   <img alt="Customer Conversion Funnel"
        src="https://github.com/user-attachments/assets/6ce3282a-08f0-4a0a-9ccc-96c191c9890f" width = '600'/>
   <br>
-  <em>Figure 6. Matriks Prioritas SKU Berdasarkan Margin dan DOI</em>
+  <em>Figure 5. Matriks Prioritas SKU Berdasarkan Margin dan DOI</em>
 </p>
 Matriks SKU menunjukkan bahwa Sticky Notes DQLab dan Earphone Kantor DQLab merupakan produk paling sehat secara bisnis karena memiliki margin tinggi dan Days of Inventory rendah, sehingga menghasilkan profit cepat tanpa membebani biaya penyimpanan. Sebaliknya, produk seperti Kartu Ucapan DQLab dan Tempat Kartu DQLab memang memiliki margin tinggi, namun tertahan pada Days of Inventory yang sangat besar, yang berarti modal tersimpan lama di gudang dan meningkatkan risiko biaya operasional. Temuan ini menunjukkan bahwa tidak semua produk bermargin tinggi layak menjadi prioritas, karena kecepatan perputaran stok (DOI) sama pentingnya dengan margin dalam menentukan profitabilitas nyata.
 <br>
@@ -98,32 +98,42 @@ Matriks SKU menunjukkan bahwa Sticky Notes DQLab dan Earphone Kantor DQLab merup
 
 ## Kesimpulan
 **1. Produk dengan performa penjualan tertinggi**
+
 Penjualan didominasi oleh sedikit produk utama, dengan Sticky Notes DQLab mengalami lonjakan ekstrem pada September 2024. Setelah puncak, performanya tetap lebih tinggi dibanding periode awal, menunjukkan potensi sebagai key revenue driver.
 
 **2. Outlier & performa produk**
+
 Hampir semua kategori produk memiliki outlier, yang mengindikasikan adanya event penjualan tidak normal seperti promo besar atau pesanan massal. Produk dengan median tinggi dan outlier ekstrem cenderung memiliki kontribusi penjualan yang lebih dinamis.
 
 **3. Pola perilaku pelanggan (Funnel)**
+
 Dari seluruh view, hanya 1% yang berakhir menjadi purchase. Drop-off terbesar terjadi pada tahap click → add_to_cart, menjadikannya titik kritis utama untuk optimasi konversi.
 
 **4. Distribusi profit margin**
+
 Profit margin tidak terdistribusi normal dan membentuk beberapa klaster nilai, menandakan adanya kelompok produk dengan struktur profitabilitas yang sangat berbeda. Ini menunjukkan bahwa pendekatan harga dan stok tidak bisa disamaratakan.
 
 **5. Penentuan produk prioritas & kandidat drop**
+
 Matriks Margin–DOI menunjukkan bahwa produk dengan margin tinggi & DOI rendah merupakan kandidat utama untuk produk unggulan. Sebaliknya, produk dengan DOI tinggi & margin rendah berpotensi menjadi beban inventory dan layak untuk dievaluasi atau dikurangi.
 
 ## Rekomendasi Bisnis
 **1. Leverage momentum produk dengan lonjakan penjualan**
+
 Produk seperti Sticky Notes DQLab yang menunjukkan spike penjualan ekstrem perlu diperlakukan sebagai growth driver, melalui strategi bundling, promo lanjutan, dan penempatan prioritas dalam campaign pemasaran agar performa pasca-puncak tetap terjaga.
 
 **2. Optimalkan tahap add-to-cart dalam funnel konversi**
+
 Penurunan tajam dari tahap click ke add-to-cart menunjukkan peluang besar untuk peningkatan revenue. Disarankan melakukan perbaikan UX halaman produk, pemberian promo kontekstual di keranjang, serta personalisasi rekomendasi produk.
 
 **3. Reformulasi strategi portofolio produk berbasis Margin–DOI Matrix**
+
 Fokuskan investasi stok dan promosi pada produk dengan kombinasi margin tinggi dan DOI relatif rendah, karena kelompok ini memberikan keseimbangan terbaik antara profitabilitas dan kecepatan perputaran inventori.
 
 **4. Evaluasi produk dengan DOI ekstrem**
+
 Produk dengan DOI sangat tinggi berpotensi mengikat modal terlalu lama. Untuk kategori ini diperlukan strategi diskon selektif, reposisi harga, atau penyesuaian volume produksi.
 
 **5. Segmentasi strategi harga & inventory, bukan berbasis rata-rata umum**
+
 Setiap kelompok produk memerlukan kebijakan yang berbeda. Pendekatan dapat dilakukan dengan melakukan segmentasi strategi harga berdasarkan cluster margin, bukan rata-rata umum, supaya tiap produk dapat strategi profitabilitas yang lebih tepat.
